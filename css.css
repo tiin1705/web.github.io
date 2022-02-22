@@ -1,0 +1,305 @@
+#header{
+    max-width: 1000px;
+    height: 400px;
+    margin: 0px auto;
+    background-image: url(hinh/gamegear.png);
+    background-repeat: none;
+    background-size: 100% 100%;
+    position: relative;
+}
+#header .usermenu{
+    width: 400px;
+    height: 30px;
+    position: absolute;
+    right: 0px;
+    background-color:rgb(16, 185, 185); 
+    border-radius: 0px 0px 0px 10px;
+
+}
+#header .usermenu ul{
+    display: flex;
+    margin: 0;
+}
+#header .usermenu ul li{
+    padding: 2px 2px 2px 30px;
+    list-style: none;
+}
+#header .usermenu ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+}
+#header .usermenu ul li a:hover{
+    color: black;
+}
+#header .usermenu ul li .login-form{
+    background-color: rgb(37, 185, 185);
+    position: absolute;
+    top: 30px;
+    width: 200px;
+    right: 190px;
+   display: none;
+   color: white;
+   border-radius: 0px 0px 10px 10px;
+}
+#header .usermenu ul li:hover .login-form{
+    display: block;
+}
+.form{
+    padding-left: 15px;
+}
+.form-controls{
+    margin: 2px 2px 2px 15px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px blue;
+}
+.checkbox{
+    margin: 2px 2px 2px 15px;
+}
+.form-button{
+    margin: 2px 2px 2px 15px;
+}
+.reg-form{
+    background-color: rgb(37, 185, 185);
+    position: absolute;
+    top: 28px;
+    width: 220px;
+    right: 70px;
+    border-radius: 0px 0px 10px 10px;
+    display: none;
+    color: white;
+}
+#header .usermenu ul li:hover .reg-form{
+    display: block;
+}
+.reg-form .form2{
+    padding-left: 15px;
+}
+.reg-form .form-controls2{
+    margin: 2px 2px 2px 15px;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0 0 2px blue;
+}
+.reg-form .form-button2{
+    margin: 2px 2px 2px 15px;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0px auto;
+}
+nav{
+    display: flex;
+    background-color: rgb(16, 185, 185);
+    justify-content: center;
+    height: auto;
+}
+#main-menu{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#main-menu li {
+    position: relative;
+}
+#main-menu li a{
+text-decoration: none;
+color: white;
+padding: 18px 40px;
+display: block;
+font-family: sans-serif;
+}
+#main-menu li a:hover{
+    color: black;
+}
+#main-menu .sub-menu{
+    position: absolute;
+    list-style: none;
+    background-color: rgb(108, 218, 218);
+    padding: 10px 0px;
+    width: 176.05px;
+    border: 1px solid rgb(168, 162, 162);
+    display: none;
+}
+#main-menu li:hover .sub-menu{
+    display: block;
+}
+#main-menu .sub-menu a{
+    padding: 9px 16px;
+    border-bottom: 1px solid rgb(168, 162, 162);
+}
+#main-menu .sub-menu{
+    right: -22px;
+}
+#main-menu .sub-menu li:hover a{
+    border-bottom: 1px solid rgb(255, 250, 250);
+}
+#main-menu .sub-menu li:last-child a{
+    border-bottom: none;
+}
+#quangcaobox{
+    max-width: 1000px;
+    margin: 0px auto;
+    height: 400px;
+}
+#quangcaobox .quangcao1{
+    max-width: 60%;
+    float: left;
+    height: 400px;
+    padding: 2px;
+}
+#quangcaobox .quangcao1 img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#quangcaobox .quangcao2{
+    width: 39.1%;
+    float: right;
+    height: 400px;
+    padding: 2px;
+}
+#quangcaobox .quangcao2 img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 198px;
+   
+}
+#salebox{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: cornflowerblue;
+    height: auto;
+    clear: both;
+    padding: 0;
+}
+#salebox h3{
+    font-variant: small-caps;
+    text-align: center;
+    color: white;
+   display: block;
+   margin: 0;
+}
+#sanphambox{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0;
+    height: auto;
+    
+}
+#sanphambox .sanpham{
+    width: 23.5%;
+    margin: 5px 5px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    position: relative; 
+    float: left;
+    height: 300px;
+}
+#sanphambox .sanpham .name{
+    font-variant: small-caps;
+    text-align: center;
+    font-size: large;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#sanphambox .sanpham img{
+  width: 100%;
+  margin-bottom: 10px ;
+  height: 200px;
+}
+#sanphambox .sanpham .price{
+    font-variant: small-caps;
+    font-size: larger;
+    text-align: center;
+    position: absolute;
+    bottom: 25px;
+    left: 75px;
+}
+#sanphambox .sanpham .price del{
+    font-variant: small-caps;
+    font-size: larger;
+    color: red;
+}
+#sanphambox .sanpham .hearticon{
+    position: absolute;
+    width: 25.39px;
+    height: 25.39px;
+    right:3px;
+    bottom: 45px;
+}
+#sanphambox .sanpham .buyicon{
+    position: absolute;
+    width: 25.39px;
+    height: 25.39px;
+    right:5px;
+    bottom: 18px;
+}
+#sanphambox .sanpham .saleicon{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 40px;
+    right: 8px;
+}
+#sanphambox .sanpham a{
+    text-decoration: none;
+}
+#sanphambox .sanpham a:hover{
+    font-weight: bold;
+    text-decoration: none;
+}
+footer{
+    max-width: 1000px;
+    background-color: rgb(16, 185, 185);;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+footer .hotline{
+    max-width: 50%;
+    padding: 0;
+    margin: 0;
+}
+footer .hotline h3{
+    color: white;
+    font-size: large;
+    font-family: sans-serif;
+    display: block;
+    padding: 25px;
+    margin: 0;
+}
+footer .hotline ul{
+    padding: 20px;
+    margin: 0;
+}
+footer .hotline li{
+    list-style: none;
+    color: black;
+    font-size: medium;
+}
+footer .hotline li a{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+}
+footer .address{
+    max-width: 40%;
+    height: auto;
+    float: right;
+}
+.fb-icon{
+    width: 30px;
+    height: 30px;
+}
+
+
+   
+    
